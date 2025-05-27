@@ -1,0 +1,19 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Start Frontend (Expo)",
+      "type": "shell",
+      "command": "cd frontend && npx expo start",
+      "group": "build",
+      "problemMatcher": []
+    },
+    {
+      "label": "Start Backend (NestJS)",
+      "type": "shell",
+      "command": "cd backend && npm run start:dev",
+      "group": "build",
+      "problemMatcher": []
+    }
+  ]
+}
